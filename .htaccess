@@ -3,7 +3,7 @@
 
     # Ajusta la base según tu estructura de carpetas
     # Si tu aplicación se encuentra en una subcarpeta, descomenta la siguiente línea y ajusta la ruta
-    # RewriteBase /TuercasTornillosY+/
+     RewriteBase /TuercasTornillosY+/
 
     # Verifica si el archivo solicitado no existe como archivo físico
     RewriteCond %{REQUEST_FILENAME} !-f

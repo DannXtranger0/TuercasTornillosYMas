@@ -21,7 +21,7 @@
 
         <div class="campo">
             <label for="contrasenia">Contraseña</label>
-            <input type="password" name="contrasenia" id="contrasenia" class="campoInicio">
+            <input type="password" name="contrasenia" id="contrasenia" class="campoContrasena">
         </div>
                     
         <input type="submit" value="Iniciar Sesión" class="boton">

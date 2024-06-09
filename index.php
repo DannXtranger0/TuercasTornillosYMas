@@ -10,9 +10,10 @@ $ttrabajadoresController = new TtrabajadoresController();
 $request = $_SERVER['REQUEST_URI'];
 
 switch( $request) {
-    case '/TuercasTornillosY+/':
+    case "/TuercasTornillosY+/":
         if(!isset($_SESSION['usuario'])){
             $ttrabajadoresController ->login();
+            break;
     }
     
     case "/TuercasTornillosY+/login":
